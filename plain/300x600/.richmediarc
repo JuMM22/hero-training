@@ -1,0 +1,18 @@
+{
+  "parent": "../shared/.sharedrc",
+  "settings": {
+    "size": {
+      "width": 300,
+      "height": 600
+    },
+    "entry": {}
+  },
+  "content": {
+    "custom":"./css/custom.css",
+    "img": {
+      "square":"../shared/img/square_300x600.svg",
+      "bg":"../shared/img/bg_300x600.jpg",
+      "product":"../shared/img/product_alt.png"
+    }
+  }
+}

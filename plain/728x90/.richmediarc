@@ -1,0 +1,21 @@
+{
+  "parent": "../shared/.sharedrc",
+  "settings": {
+    "size": {
+      "width": 728,
+      "height": 90
+    },
+    "entry": {}
+  },
+  "content": {
+    "custom":"./css/custom.css",
+    "isHorizontal": true,
+    "img": {
+      "square":"../shared/img/square_728x90.svg",
+      "bg":"../shared/img/bg_728x90.jpg",
+      "product":"../shared/img/product_alt.png",
+      "copy1A":"../shared/img/fast_horizontal.png",
+      "copy1B":"../shared/img/hour_horizontal.png"
+    }
+  }
+}

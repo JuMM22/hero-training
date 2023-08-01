@@ -1,0 +1,62 @@
+.product {
+    right: 1px;
+    bottom: 1px;
+    width: 171px;
+}
+
+.square {
+    top: 24px;
+    left: 25px;
+}
+
+.hand {
+    top: -4px;
+    right: 70px;
+    width: 141px;
+}
+
+.copy2 {
+    bottom: 148px;
+    left: 11px;
+    width: 143px;
+}
+
+.legal {
+    bottom: 12px;
+    left: 23px;
+}
+
+.copy1A {
+    left: 13px;
+    top: 251px;
+    width: 92px;
+}
+
+.copy1B {
+    left: 11px;
+    top: 284px;
+    width: 220px;
+}
+
+.copy1C {
+    left: 10px;
+    top: 318px;
+    width: 140px;
+}
+
+.copy1D {
+    left: 9px;
+    top: 351px;
+    width: 247px;
+}
+
+.ctaButton {
+    bottom: 180px;
+    left: 11px;
+    height: 26px;
+    width: 130px;
+}
+
+.ctaCopy {
+    width: 115px;
+}

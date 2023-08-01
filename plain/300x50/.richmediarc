@@ -1,0 +1,20 @@
+{
+  "parent": "../shared/.sharedrc",
+  "settings": {
+    "size": {
+      "width": 300,
+      "height": 50
+    },
+    "entry": {}
+  },
+  "content": {
+    "custom": "./css/custom.css",
+    "isHorizontal": true,
+    "isMobile": true,
+    "img": {
+      "product": "../shared/img/product_alt.png",
+      "copy1A":"../shared/img/fast_horizontal.png",
+      "copy1B":"../shared/img/hour_horizontal.png"
+    }
+  }
+}

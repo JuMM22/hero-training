@@ -1,0 +1,50 @@
+.product {
+    right: -9px;
+    bottom: -49px;
+    width: 157px;
+}
+
+.square {
+    top: 8px;
+    left: 7px;
+}
+
+.hand {
+    top: -23px;
+    left: 89px;
+    width: 88px;
+}
+
+.copy2 {
+    bottom: 18px;
+    left: 364px;
+    width: 120px;
+}
+
+.legal {
+    bottom: 5px;
+    left: 258px;
+}
+
+.copy1A {
+    left: 258px;
+    top: 12px;
+    width: 229px;
+}
+
+.copy1B {
+    left: 258px;
+    top: 35px;
+    width: 280px;
+}
+
+.ctaButton {
+    bottom: 13px;
+    left: 258px;
+    height: 19px;
+    width: 93px;
+}
+
+.ctaCopy {
+    width: 81px;
+}

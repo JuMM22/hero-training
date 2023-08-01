@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="ad.size" content="width={{settings.size.width}},height={{settings.size.height}}">
+
+  <title>{{settings.size.width}}x{{settings.size.height}}</title>
+
+  <link rel="stylesheet" href="{{content.css}}" type="text/css">
+  <link rel="stylesheet" href="{{content.custom}}" type="text/css">
+
+  <script type="text/javascript">
+    var clickTag = "{{content.clickTag}}";
+  </script>
+</head>
+
+<body>
+  <div class="banner border">
+    <div class="content fullscreen">
+
+      {{#if content.isMobile}}
+      {{else}}
+      <img id="bg" class="bg PA" src="{{content.img.bg}}">
+      <img id="square" class="square PA" inline src="{{content.img.square}}">
+      <img id="hand" class="hand PA" src="{{content.img.hand}}">
+      {{/if}}
+
+      {{#if content.isHorizontal}}
+      <div id="copyHolder" class="copyHolder PA">
+        <img id="copy1A" class="copy1A PA" src="{{content.img.copy1A}}">
+        <img id="copy1B" class="copy1B PA" src="{{content.img.copy1B}}">
+      </div>
+      {{else}}
+      <div id="copyHolder" class="copyHolder PA">
+        <img id="copy1A" class="copy1A PA" src="{{content.img.copy1A}}">
+        <img id="copy1B" class="copy1B PA" src="{{content.img.copy1B}}">
+        <img id="copy1C" class="copy1C PA" src="{{content.img.copy1C}}">
+        <img id="copy1D" class="copy1D PA" src="{{content.img.copy1D}}">
+      </div>
+      {{/if}}
+
+      <img id="copy2" class="copy2 PA" src="{{content.img.copy2}}">
+
+      <img id="product" class="product PA" src="{{content.img.product}}">
+
+      <img id="legal" class="legal PA" src="{{content.img.legal}}">
+
+      <div id="ctaButton" class="ctaButton PA">
+        <img id="ctaCopy" class="ctaCopy PA" src="{{content.img.ctaCopy}}">
+      </div>
+    </div>
+    <div class="mainExit fullscreen"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+</body>
+
+</html>
